@@ -1,8 +1,9 @@
 import React from 'react';
-import './App.css'
+import './App.css';
+import perfil from './assets/perfil.JPG';
 
 function App () {
-    return <h1>Hello ReactJs</h1>
+    return <img src={perfil} width={200}/>
 }
 
 export default App;
